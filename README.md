@@ -22,10 +22,10 @@ _Just for educational purpuses_.
   - Opt2: Edit httpd.conf file and set main _DocumentRoot_ directive:
 
     <code>C:\xampp\apache\conf\extra\httpd-vhosts.conf-- DocumentRoot "C:/xampp/htdocs/Electronique-mvc" </code> for XAMPP on Windows.
-    <code><VirtualHost _:80>
+    <code>"<VirtualHost _:80>
     DocumentRoot "C:/xampp/htdocs/Electronique-mvc"
     ServerName localhost/Electronique-mvc #</VirtualHost>
-    <VirtualHost _:80>
+    <VirtualHost _:80>"
     </code>
 
   - Set _AllowOverride_ to _AllowOverride All_
